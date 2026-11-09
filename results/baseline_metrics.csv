@@ -1,0 +1,3 @@
+Model,Accuracy (%),Prec_S (%),Rec_S (%),F1_S (%),Prec_NS (%),Rec_NS (%),F1_NS (%),Macro_F1 (%),TP (S->S),FN (S->NS),FP (NS->S),TN (NS->NS)
+Always Supported,50.68,50.68,100.00,67.27,0.00,0.00,0.00,33.63,112,0,109,0
+Random Guess,50.23,50.88,51.79,51.33,49.53,48.62,49.07,50.20,58,54,56,53
