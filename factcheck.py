@@ -3,6 +3,10 @@ from typing import List
 import numpy as np
 import spacy
 import gc
+import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 
 
 class FactExample(object):
@@ -80,8 +84,46 @@ class AlwaysEntailedFactChecker(FactChecker):
 
 
 class WordRecallThresholdFactChecker(FactChecker):
+    """
+    Part 1: Bag-of-words overlap classifier with morphological stemming,
+    stopword filtering, and passage-level word recall thresholding.
+    """
+    def __init__(self, threshold: float = 0.65, remove_stops: bool = True, stem: bool = True):
+        self.threshold = threshold
+        self.remove_stops = remove_stops
+        self.stem = stem
+        self.stemmer = PorterStemmer()
+        try:
+            self.stop_words = set(stopwords.words('english'))
+        except Exception:
+            nltk.download('stopwords', quiet=True)
+            self.stop_words = set(stopwords.words('english'))
+
+    def tokenize(self, text: str) -> List[str]:
+        cleaned = re.sub(r'</?s>', ' ', text).lower()
+        tokens = re.findall(r'\b[a-z0-9]+\b', cleaned)
+        if self.remove_stops:
+            tokens = [t for t in tokens if t not in self.stop_words]
+        if self.stem:
+            tokens = [self.stemmer.stem(t) for t in tokens]
+        return tokens
+
+    def compute_recall(self, fact_tokens: set, passage_text: str) -> float:
+        if not fact_tokens:
+            return 0.0
+        p_tokens = set(self.tokenize(passage_text))
+        if not p_tokens:
+            return 0.0
+        return len(fact_tokens & p_tokens) / len(fact_tokens)
+
     def predict(self, fact: str, passages: List[dict]) -> str:
-        raise Exception("Implement me")
+        fact_tokens = set(self.tokenize(fact))
+        if not fact_tokens:
+            return "NS"
+        if not passages:
+            return "NS"
+        max_recall = max((self.compute_recall(fact_tokens, p["text"]) for p in passages), default=0.0)
+        return "S" if max_recall >= self.threshold else "NS"
 
 
 class EntailmentFactChecker(FactChecker):
