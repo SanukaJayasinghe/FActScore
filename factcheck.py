@@ -136,9 +136,9 @@ class EntailmentFactChecker(FactChecker):
     guarantee fast, memory-safe CPU execution, followed by semantic cross-encoder inference.
     """
     def __init__(self, ent_model,
-                 high_recall_threshold: float = 0.82,
+                 high_recall_threshold: float = 0.85,
                  mod_recall_threshold: float = 0.65,
-                 nli_threshold: float = 0.05):
+                 nli_threshold: float = 0.005):
         self.ent_model = ent_model
         self.high_recall_threshold = high_recall_threshold
         self.mod_recall_threshold = mod_recall_threshold
