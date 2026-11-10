@@ -1,3 +1,7 @@
+import os
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+
 import torch
 from typing import List
 import numpy as np
@@ -34,27 +38,26 @@ class EntailmentModel(object):
         self.tokenizer = tokenizer
         self.cuda = cuda
 
-    def check_entailment(self, premise: str, hypothesis: str):
+    def check_entailment(self, premise: str, hypothesis: str) -> float:
+        """
+        Tokenizes premise and hypothesis, executes a forward pass through the NLI transformer cross-encoder,
+        computes softmax class probabilities, and performs explicit tensor cleanup to prevent memory accumulation.
+        Returns the probability of entailment (class 0 in MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli).
+        """
         with torch.no_grad():
-            # Tokenize the premise and hypothesis
-            inputs = self.tokenizer(premise, hypothesis, return_tensors='pt', truncation=True, padding=True)
+            inputs = self.tokenizer(premise, hypothesis, return_tensors='pt', truncation=True, max_length=512)
             if self.cuda:
                 inputs = {key: value.to('cuda') for key, value in inputs.items()}
-            # Get the model's prediction
             outputs = self.model(**inputs)
             logits = outputs.logits
+            probs = torch.softmax(logits, dim=-1)[0]
+            # DeBERTa-v3 label order: {0: 'entailment', 1: 'neutral', 2: 'contradiction'}
+            p_entailment = float(probs[0].item())
 
-        # Note that the labels are ["entailment", "neutral", "contradiction"]. There are a number of ways to map
-        # these logits or probabilities to classification decisions; you'll have to decide how you want to do this.
-
-        raise Exception("Not implemented")
-
-        # To prevent out-of-memory (OOM) issues during autograding, we explicitly delete
-        # objects inputs, outputs, logits, and any results that are no longer needed after the computation.
-        del inputs, outputs, logits
+        del inputs, outputs, logits, probs
         gc.collect()
 
-        # return something
+        return p_entailment
 
 
 class FactChecker(object):
@@ -127,11 +130,76 @@ class WordRecallThresholdFactChecker(FactChecker):
 
 
 class EntailmentFactChecker(FactChecker):
-    def __init__(self, ent_model):
+    """
+    Part 2: Textual Entailment Pipeline with Lexical Pruning and DeBERTa Cross-Encoder.
+    Incorporates overlap-based preliminary pruning to eliminate irrelevant evidence and
+    guarantee fast, memory-safe CPU execution, followed by semantic cross-encoder inference.
+    """
+    def __init__(self, ent_model,
+                 high_recall_threshold: float = 0.82,
+                 mod_recall_threshold: float = 0.65,
+                 nli_threshold: float = 0.05):
         self.ent_model = ent_model
+        self.high_recall_threshold = high_recall_threshold
+        self.mod_recall_threshold = mod_recall_threshold
+        self.nli_threshold = nli_threshold
+        self.stemmer = PorterStemmer()
+        try:
+            self.stop_words = set(stopwords.words('english'))
+        except Exception:
+            nltk.download('stopwords', quiet=True)
+            self.stop_words = set(stopwords.words('english'))
+
+    def tokenize(self, text: str) -> List[str]:
+        cleaned = re.sub(r'</?s>', ' ', text).lower()
+        tokens = re.findall(r'\b[a-z0-9]+\b', cleaned)
+        return [self.stemmer.stem(t) for t in tokens if t not in self.stop_words]
+
+    def compute_recall(self, fact_tokens: set, passage_text: str) -> float:
+        if not fact_tokens:
+            return 0.0
+        p_tokens = set(self.tokenize(passage_text))
+        return len(fact_tokens & p_tokens) / len(fact_tokens) if p_tokens else 0.0
 
     def predict(self, fact: str, passages: List[dict]) -> str:
-        raise Exception("Implement me")
+        if not fact or not passages:
+            return "NS"
+        fact_tokens = set(self.tokenize(fact))
+        if not fact_tokens:
+            return "NS"
+
+        # 1. Lexical Scoring & Pruning across retrieved candidate passages
+        passage_scores = []
+        for p in passages:
+            rec = self.compute_recall(fact_tokens, p["text"])
+            passage_scores.append((rec, p))
+
+        passage_scores.sort(key=lambda x: x[0], reverse=True)
+        max_recall, best_p = passage_scores[0]
+
+        # Early Pruning: If even the best-matching passage has low keyword overlap,
+        # entailment is impossible -> reject immediately without running transformer
+        if max_recall < self.mod_recall_threshold:
+            return "NS"
+
+        # Decisive Support: Overwhelming keyword overlap indicates clear factual alignment
+        if max_recall >= self.high_recall_threshold:
+            return "S"
+
+        # 2. Semantic Cross-Encoder Evaluation on top candidates:
+        # For moderate overlap claims (0.65 <= recall < 0.85),
+        # use DeBERTa to verify whether the passage logically entails the claim
+        cand_passages = [p for rec, p in passage_scores[:2] if rec >= self.mod_recall_threshold]
+        max_p_entail = 0.0
+
+        for p in cand_passages:
+            cleaned = re.sub(r'</?s>', ' ', p["text"]).strip()
+            premise = f"{p['title']}. {cleaned}"
+            p_ent = self.ent_model.check_entailment(premise, fact)
+            if p_ent > max_p_entail:
+                max_p_entail = p_ent
+
+        return "S" if max_p_entail >= self.nli_threshold else "NS"
 
 
 # OPTIONAL
