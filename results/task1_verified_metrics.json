@@ -1,0 +1,38 @@
+{
+  "phase": "Phase 4 - Task 1 Official Verification",
+  "command": "python factchecking_main.py --mode word_overlap",
+  "device": "cpu",
+  "dataset": "data/dev_labeled_ChatGPT.jsonl",
+  "passages": "data/passages_bm25_ChatGPT_humfacts.jsonl",
+  "total_examples": 221,
+  "model_class": "WordRecallThresholdFactChecker",
+  "frozen_parameters": {
+    "threshold": 0.65,
+    "remove_stopwords": true,
+    "stemmer": "PorterStemmer",
+    "passage_aggregation": "max_over_passages"
+  },
+  "metrics": {
+    "correct_predictions": 184,
+    "total_predictions": 221,
+    "accuracy": 0.832579185520362,
+    "accuracy_pct": 83.26,
+    "precision_S": 0.8260869565217391,
+    "recall_S": 0.8482142857142857,
+    "f1_S": 0.8370044052863437,
+    "precision_NS": 0.839622641509434,
+    "recall_NS": 0.8165137614678899,
+    "f1_NS": 0.827906976744186,
+    "macro_f1": 0.8324556910152649
+  },
+  "confusion_matrix": {
+    "TP_Supported": 95,
+    "FN_Supported": 17,
+    "FP_NotSupported": 20,
+    "TN_NotSupported": 89
+  },
+  "coursework_target": ">= 75.0%",
+  "target_met": true,
+  "margin_above_target": "+8.26%"
+}
+
