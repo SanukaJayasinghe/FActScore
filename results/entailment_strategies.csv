@@ -1,0 +1,5 @@
+Strategy,Parameters / Threshold,Accuracy (%),Precision_S (%),Recall_S (%),F1_S (%),Precision_NS (%),Recall_NS (%),F1_NS (%),Macro_F1 (%),TP,FP,FN,TN,Runtime (CPU)
+Discrete Entailment (Argmax),N/A,79.64,88.51,68.75,77.39,73.88,90.83,81.48,79.43,77,10,35,99,131.0s
+Continuous Probability Thresholding,0.043,83.71,87.25,79.46,83.18,80.67,88.07,84.21,83.69,89,13,23,96,131.0s
+Overlap-Pruned DeBERTa Pipeline,"prune=0.65, tau=0.001",84.16,84.07,84.82,84.44,84.26,83.49,83.87,84.16,95,18,17,91,50.6s
+Guided Hybrid Pipeline (CHOSEN),"th_high=0.82, th_mod=0.65, tau=0.05",85.52,90.82,79.46,84.76,81.30,91.74,86.21,85.48,89,9,23,100,48.2s

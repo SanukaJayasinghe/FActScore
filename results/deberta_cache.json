@@ -1,0 +1,2811 @@
+[
+  {
+    "fact": "Marianne McAndrew is an American.",
+    "gold": "NS",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.2339717596769333,
+        0.7642478346824646,
+        0.00178048899397254
+      ]
+    ]
+  },
+  {
+    "fact": "Marianne McAndrew is an actress.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.999167799949646,
+        0.0002994818496517837,
+        0.0005327509716153145
+      ],
+      [
+        0.99959796667099,
+        0.00022916596208233386,
+        0.0001729424693621695
+      ]
+    ]
+  },
+  {
+    "fact": "Marianne McAndrew is a singer.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0011034170165657997,
+        0.8850868344306946,
+        0.11380967497825623
+      ]
+    ]
+  },
+  {
+    "fact": "Marianne McAndrew was born on November 21, 1942.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Marianne McAndrew was born in Cleveland.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.00041673542000353336,
+        0.9989878535270691,
+        0.0005954426596872509
+      ]
+    ]
+  },
+  {
+    "fact": "Cleveland is in Ohio.",
+    "gold": "NS",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9962228536605835,
+        0.0034152274020016193,
+        0.0003618919581640512
+      ],
+      [
+        0.8785523772239685,
+        0.12030592560768127,
+        0.0011416830820962787
+      ]
+    ]
+  },
+  {
+    "fact": "Gerhard Fischer is an inventor.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9978376030921936,
+        0.001173300901427865,
+        0.0009890261571854353
+      ]
+    ]
+  },
+  {
+    "fact": "Gerhard Fischer is an entrepreneur.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9972992539405823,
+        0.0014791191788390279,
+        0.0012217112816870213
+      ]
+    ]
+  },
+  {
+    "fact": "Gerhard Fischer is best known for inventing a metal detector.",
+    "gold": "S",
+    "max_recall": 0.7142857142857143,
+    "deberta_probs": [
+      [
+        0.8936282396316528,
+        0.09627944976091385,
+        0.010092342272400856
+      ],
+      [
+        0.006560970563441515,
+        0.9901089668273926,
+        0.0033301329240202904
+      ]
+    ]
+  },
+  {
+    "fact": "Gerhard Fischer invented the first handheld, battery-operated metal detector.",
+    "gold": "S",
+    "max_recall": 0.5555555555555556,
+    "deberta_probs": [
+      [
+        0.0056664892472326756,
+        0.9914591312408447,
+        0.0028744549490511417
+      ],
+      [
+        0.06674893200397491,
+        0.9237378239631653,
+        0.009513245895504951
+      ]
+    ]
+  },
+  {
+    "fact": "Gerhard Fischer invented the first handheld, battery-operated metal detector in 1931.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.041880398988723755,
+        0.9105247259140015,
+        0.04759484529495239
+      ],
+      [
+        0.013161110691726208,
+        0.9489496946334839,
+        0.03788921609520912
+      ]
+    ]
+  },
+  {
+    "fact": "He founded the Fischer Research Laboratory.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9911406636238098,
+        0.005884549114853144,
+        0.0029748540837317705
+      ],
+      [
+        0.9875693917274475,
+        0.0065914723090827465,
+        0.005839192308485508
+      ]
+    ]
+  },
+  {
+    "fact": "The Fischer Research Laboratory was founded in 1936.",
+    "gold": "NS",
+    "max_recall": 0.8,
+    "deberta_probs": [
+      [
+        0.001800844562239945,
+        0.006607916206121445,
+        0.991591215133667
+      ],
+      [
+        0.0008077548700384796,
+        0.0017756317974999547,
+        0.997416615486145
+      ]
+    ]
+  },
+  {
+    "fact": "The Fischer Research Laboratory became one of the world's leading manufacturers of metal detectors.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.7495707869529724,
+        0.23691165447235107,
+        0.013517548330128193
+      ],
+      [
+        0.0012336155632510781,
+        0.9981005787849426,
+        0.0006658601923845708
+      ]
+    ]
+  },
+  {
+    "fact": "Joey D. Vieira is an American.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.999534010887146,
+        0.00023062259424477816,
+        0.00023534128558821976
+      ]
+    ]
+  },
+  {
+    "fact": "Joey D. Vieira is an actor.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9995755553245544,
+        0.00016251826309598982,
+        0.00026187641196884215
+      ],
+      [
+        0.9973782300949097,
+        0.0020071386825293303,
+        0.0006146676023490727
+      ]
+    ]
+  },
+  {
+    "fact": "Joey D. Vieira is a stunt performer.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0012295175110921264,
+        0.9388678669929504,
+        0.05990248918533325
+      ]
+    ]
+  },
+  {
+    "fact": "Joey D. Vieira was born on July 23, 1937.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.00015001535939518362,
+        0.000330074894009158,
+        0.999519944190979
+      ]
+    ]
+  },
+  {
+    "fact": "Joey D. Vieira was born in California, USA.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.004456560127437115,
+        0.9949570298194885,
+        0.0005863551632501185
+      ]
+    ]
+  },
+  {
+    "fact": "She transitioned to acting.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.007138330023735762,
+        0.012351620011031628,
+        0.9805101156234741
+      ]
+    ]
+  },
+  {
+    "fact": "She appeared in films.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.99950110912323,
+        0.00030469760531559587,
+        0.0001942017552210018
+      ],
+      [
+        0.9695945382118225,
+        0.029632646590471268,
+        0.0007727616466581821
+      ]
+    ]
+  },
+  {
+    "fact": "She appeared in A Bronx Tale.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9981518387794495,
+        0.0009446819312870502,
+        0.0009034773684106767
+      ],
+      [
+        0.0005423930124379694,
+        0.9968578815460205,
+        0.0025998030323535204
+      ]
+    ]
+  },
+  {
+    "fact": "A Bronx Tale is a film.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9967468976974487,
+        0.000542735680937767,
+        0.0027102658059448004
+      ],
+      [
+        0.004109782166779041,
+        0.9935345649719238,
+        0.0023555734660476446
+      ]
+    ]
+  },
+  {
+    "fact": "A Bronx Tale was released in 1993.",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.9770708084106445,
+        0.008875230327248573,
+        0.01405402086675167
+      ],
+      [
+        0.0014760695630684495,
+        0.9942223429679871,
+        0.004301541484892368
+      ]
+    ]
+  },
+  {
+    "fact": "She appeared in Just Cause.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.853979229927063,
+        0.010671019554138184,
+        0.13534975051879883
+      ],
+      [
+        0.0005100101698189974,
+        0.9135280847549438,
+        0.08596185594797134
+      ]
+    ]
+  },
+  {
+    "fact": "Just Cause is a film.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.04728721082210541,
+        0.01031467504799366,
+        0.9423981308937073
+      ],
+      [
+        0.002334430580958724,
+        0.9946857690811157,
+        0.002979834098368883
+      ]
+    ]
+  },
+  {
+    "fact": "Just Cause was released in 1995.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.47865915298461914,
+        0.22720091044902802,
+        0.2941399812698364
+      ],
+      [
+        0.2180940955877304,
+        0.5546907186508179,
+        0.2272152155637741
+      ]
+    ]
+  },
+  {
+    "fact": "She appeared in Belly.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9897245168685913,
+        0.0018636264139786363,
+        0.0084117716178298
+      ],
+      [
+        0.9421342611312866,
+        0.04896647483110428,
+        0.008899342268705368
+      ]
+    ]
+  },
+  {
+    "fact": "Belly is a film.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.8857007026672363,
+        0.0039857421070337296,
+        0.11031349003314972
+      ],
+      [
+        0.9943296909332275,
+        0.002257601823657751,
+        0.0034126436803489923
+      ]
+    ]
+  },
+  {
+    "fact": "Belly was released in 1998.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.10936416685581207,
+        0.8862664103507996,
+        0.0043694195337593555
+      ],
+      [
+        0.9231811165809631,
+        0.04677775874733925,
+        0.03004121221601963
+      ]
+    ]
+  },
+  {
+    "fact": "He is a member of the Democratic Party.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He has served as a mayor.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He is the mayor of Palermo.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0004480498901102692,
+        0.02722032368183136,
+        0.9723315834999084
+      ]
+    ]
+  },
+  {
+    "fact": "He has been mayor of Palermo since June 2017.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Tusa has been involved in various cultural initiatives.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Tusa has worked to promote Palermo as a cultural destination.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.010467847809195518,
+        0.9868760108947754,
+        0.0026562216226011515
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was born in 1703.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9932286143302917,
+        0.0007896556053310633,
+        0.00598182575777173
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 died in 1763.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9489888548851013,
+        0.033601317554712296,
+        0.017409788444638252
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was French.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9981682300567627,
+        0.0013445507502183318,
+        0.0004871698038186878
+      ],
+      [
+        0.9796328544616699,
+        0.019620414823293686,
+        0.0007467358373105526
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was an engraver.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9974017143249512,
+        0.0016372804529964924,
+        0.0009610189008526504
+      ],
+      [
+        0.9994223117828369,
+        0.0003200079081580043,
+        0.00025769550120458007
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was a printmaker.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.9859888553619385,
+        0.010246449150145054,
+        0.003764692461118102
+      ],
+      [
+        0.9974013566970825,
+        0.0019103270024061203,
+        0.0006882898742333055
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was known for his portraits.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9579510688781738,
+        0.04015206918120384,
+        0.0018967519281432033
+      ]
+    ]
+  },
+  {
+    "fact": "Jean Daull\u00e9 was known for his religious subjects.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0009576428565196693,
+        0.8404744863510132,
+        0.15856780111789703
+      ],
+      [
+        0.03049526736140251,
+        0.9536749720573425,
+        0.015829790383577347
+      ]
+    ]
+  },
+  {
+    "fact": "Fernandinho represents the Brazil national team.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Fernandinho has represented the Brazil national team since 2011.",
+    "gold": "NS",
+    "max_recall": 0.14285714285714285,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Fernandinho has earned over 50 caps.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Fernandinho participated in the 2014 FIFA World Cup.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Fernandinho participated in the 2018 FIFA World Cup.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He moved to Dutch club FC Groningen.",
+    "gold": "S",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.013618647120893002,
+        0.15889614820480347,
+        0.827485203742981
+      ]
+    ]
+  },
+  {
+    "fact": "He made the move in 2019.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0022620246745646,
+        0.0056311883963644505,
+        0.9921067953109741
+      ],
+      [
+        0.002307787537574768,
+        0.6843075752258301,
+        0.3133845627307892
+      ]
+    ]
+  },
+  {
+    "fact": "He has become a regular starter in the team's defense.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Itakura has represented Japan at the Under-19-level.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.9332679510116577,
+        0.026238037273287773,
+        0.04049398750066757
+      ]
+    ]
+  },
+  {
+    "fact": "Itakura has represented Japan at the Under-23 level.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Itakura made his senior debut for the national team in 2019.",
+    "gold": "S",
+    "max_recall": 0.7142857142857143,
+    "deberta_probs": [
+      [
+        0.008893207646906376,
+        0.97940993309021,
+        0.011696797795593739
+      ],
+      [
+        0.9134745001792908,
+        0.0605742447078228,
+        0.025951189920306206
+      ]
+    ]
+  },
+  {
+    "fact": "He was born on December 5, 1999.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He was born in Hull.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.00017810521239880472,
+        0.0006362433778122067,
+        0.9991856217384338
+      ]
+    ]
+  },
+  {
+    "fact": "Hull is in England.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0011704780627042055,
+        0.9909595251083374,
+        0.007870014756917953
+      ]
+    ]
+  },
+  {
+    "fact": "Houghton has established himself as one of the top hookers in the Super League.",
+    "gold": "NS",
+    "max_recall": 0.42857142857142855,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He was named Hull FC's player of the year.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He was named player of the year in 2018.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Mike Trivisonno is a radio personality.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.998771607875824,
+        0.000734176195692271,
+        0.0004942309460602701
+      ],
+      [
+        0.5196743607521057,
+        0.3809449374675751,
+        0.09938068687915802
+      ]
+    ]
+  },
+  {
+    "fact": "Mike Trivisonno is well-known.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.029384756460785866,
+        0.9696283936500549,
+        0.0009868566412478685
+      ],
+      [
+        0.97652268409729,
+        0.022975711151957512,
+        0.0005015624919906259
+      ]
+    ]
+  },
+  {
+    "fact": "Mike Trivisonno is from Cleveland.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.0041514234617352486,
+        0.9945811629295349,
+        0.0012674288591369987
+      ],
+      [
+        0.9931609630584717,
+        0.005652846302837133,
+        0.0011861937819048762
+      ]
+    ]
+  },
+  {
+    "fact": "Cleveland is in Ohio.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9962228536605835,
+        0.0034152274020016193,
+        0.0003618919581640512
+      ],
+      [
+        0.8785523772239685,
+        0.12030592560768127,
+        0.0011416830820962787
+      ]
+    ]
+  },
+  {
+    "fact": "Trivisonno started his radio career at WIXY 1260 AM.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.00099115539342165,
+        0.11700580269098282,
+        0.882003128528595
+      ]
+    ]
+  },
+  {
+    "fact": "Trivisonno worked at WMMS.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.01651592180132866,
+        0.9762006998062134,
+        0.007283428218215704
+      ],
+      [
+        0.0035960497334599495,
+        0.3087797462940216,
+        0.6876242160797119
+      ]
+    ]
+  },
+  {
+    "fact": "Trivisonno worked at WTAM.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.203791543841362,
+        0.7249985337257385,
+        0.07120983302593231
+      ],
+      [
+        0.00758273946121335,
+        0.9876317381858826,
+        0.004785617813467979
+      ]
+    ]
+  },
+  {
+    "fact": "Trivisonno worked at WKNR.",
+    "gold": "NS",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9931788444519043,
+        0.00595700740814209,
+        0.0008642186876386404
+      ],
+      [
+        0.0008679174934513867,
+        0.0291926097124815,
+        0.9699394702911377
+      ]
+    ]
+  },
+  {
+    "fact": "Estes is the grandson of Sleepy John Estes.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.005547364242374897,
+        0.9900490045547485,
+        0.004403655417263508
+      ]
+    ]
+  },
+  {
+    "fact": "Sleepy John Estes is a blues musician.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Sleepy John Estes is legendary.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.005948963575065136,
+        0.9832730293273926,
+        0.010778075084090233
+      ]
+    ]
+  },
+  {
+    "fact": "Estes learned to play guitar from his grandfather.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He currently resides in Nashville.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Nashville is in Tennessee.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He continues to tour.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He continues to record new music.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Katsu has written novels.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9994045495986938,
+        0.00027836073422804475,
+        0.00031717479578219354
+      ],
+      [
+        0.9992054104804993,
+        0.0004984207917004824,
+        0.0002962227736134082
+      ]
+    ]
+  },
+  {
+    "fact": "The Taker trilogy is a novel by Katsu.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9963096976280212,
+        0.0017383067170158029,
+        0.0019519319757819176
+      ],
+      [
+        0.028941616415977478,
+        0.8596736788749695,
+        0.11138474941253662
+      ]
+    ]
+  },
+  {
+    "fact": "The Hunger is a novel by Katsu.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9826568961143494,
+        0.009591784328222275,
+        0.00775130232796073
+      ],
+      [
+        0.016859086230397224,
+        0.8888434171676636,
+        0.09429755061864853
+      ]
+    ]
+  },
+  {
+    "fact": "The Deep is a novel by Katsu.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9355140924453735,
+        0.036166008561849594,
+        0.028319861739873886
+      ],
+      [
+        0.023237861692905426,
+        0.7230144739151001,
+        0.2537476122379303
+      ]
+    ]
+  },
+  {
+    "fact": "Red Widow is a novel by Katsu.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.5267313122749329,
+        0.31088611483573914,
+        0.162382572889328
+      ],
+      [
+        0.0060074529610574245,
+        0.9871987700462341,
+        0.0067936875857412815
+      ]
+    ]
+  },
+  {
+    "fact": "Katsu currently lives in Virginia.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0005600734148174524,
+        0.9983793497085571,
+        0.001060600858181715
+      ],
+      [
+        0.00037072872510179877,
+        0.001599772134795785,
+        0.9980295300483704
+      ]
+    ]
+  },
+  {
+    "fact": "Katsu lives with her husband.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9964564442634583,
+        0.0014457490760833025,
+        0.0020977710373699665
+      ],
+      [
+        0.0005250170361250639,
+        0.9990832805633545,
+        0.0003917713765986264
+      ]
+    ]
+  },
+  {
+    "fact": "Rennie Fritchie is a public servant.",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.7335740923881531,
+        0.04169624671339989,
+        0.22472970187664032
+      ]
+    ]
+  },
+  {
+    "fact": "Rennie Fritchie is British.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9970236420631409,
+        0.0015389570035040379,
+        0.00143743259832263
+      ],
+      [
+        0.9935004115104675,
+        0.0058998167514801025,
+        0.0005997593398205936
+      ]
+    ]
+  },
+  {
+    "fact": "Rennie Fritchie is a Baroness.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9965232610702515,
+        0.00047743989853188396,
+        0.002999337390065193
+      ],
+      [
+        0.999040424823761,
+        0.0003409442724660039,
+        0.0006186306709423661
+      ]
+    ]
+  },
+  {
+    "fact": "Rennie Fritchie is Baroness Fritchie.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.94669109582901,
+        0.0022784899920225143,
+        0.05103038623929024
+      ],
+      [
+        0.9985138773918152,
+        0.0005018877563998103,
+        0.00098422693554312
+      ]
+    ]
+  },
+  {
+    "fact": "Rennie Fritchie is a crossbench member of the House of Lords.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9979660511016846,
+        0.0011381064541637897,
+        0.000895872013643384
+      ],
+      [
+        0.7847521305084229,
+        0.10735590010881424,
+        0.10789191722869873
+      ]
+    ]
+  },
+  {
+    "fact": "He had a brief stint with Universitario de Deportes.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "His stint with Universitario de Deportes was in 2003.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He then moved to Mexico.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He went to Mexico to play for Club Necaxa.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Salazar played for the Peru national team from 1995.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0008924598223529756,
+        0.9981583952903748,
+        0.00094922527205199
+      ],
+      [
+        0.0002337948972126469,
+        0.0024010997731238604,
+        0.9973651766777039
+      ]
+    ]
+  },
+  {
+    "fact": "Salazar left the Peru national team in 2003.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0007591914036311209,
+        0.00651502562686801,
+        0.9927257299423218
+      ]
+    ]
+  },
+  {
+    "fact": "Salazar earned 28 caps for the Peru national team.",
+    "gold": "NS",
+    "max_recall": 0.5714285714285714,
+    "deberta_probs": [
+      [
+        0.004717667121440172,
+        0.9933149218559265,
+        0.0019674566574394703
+      ],
+      [
+        0.00048031946062110364,
+        0.005910045001655817,
+        0.9936096668243408
+      ]
+    ]
+  },
+  {
+    "fact": "Salazar scored six goals for the Peru national team.",
+    "gold": "NS",
+    "max_recall": 0.5714285714285714,
+    "deberta_probs": [
+      [
+        0.00019377142598386854,
+        0.0010198423406109214,
+        0.9987863898277283
+      ],
+      [
+        0.000359505444066599,
+        0.006682194769382477,
+        0.9929583072662354
+      ]
+    ]
+  },
+  {
+    "fact": "He grew up in a Christian household.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He became a Christian at a young age.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0003903863253071904,
+        0.99946528673172,
+        0.0001443402870791033
+      ],
+      [
+        0.0005291965790092945,
+        0.9991347193717957,
+        0.0003361637645866722
+      ]
+    ]
+  },
+  {
+    "fact": "He was a pastor in South Africa.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9650523066520691,
+        0.031066877767443657,
+        0.0038809222169220448
+      ],
+      [
+        0.002228069817647338,
+        0.9967677593231201,
+        0.0010041793575510383
+      ]
+    ]
+  },
+  {
+    "fact": "He served for many years as a pastor.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.8666224479675293,
+        0.1267995536327362,
+        0.006578055676072836
+      ]
+    ]
+  },
+  {
+    "fact": "He served as the Executive Director of the International Christian Embassy Jerusalem.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.99444580078125,
+        0.0022918006870895624,
+        0.0032624350860714912
+      ],
+      [
+        0.0011469654273241758,
+        0.9979521632194519,
+        0.0009008809574879706
+      ]
+    ]
+  },
+  {
+    "fact": "Hibo Wardere is a campaigner.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.7656599283218384,
+        0.16664676368236542,
+        0.0676933079957962
+      ],
+      [
+        0.5925539135932922,
+        0.4044415056705475,
+        0.0030045625753700733
+      ]
+    ]
+  },
+  {
+    "fact": "Hibo Wardere is an author.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.41084057092666626,
+        0.48938003182411194,
+        0.09977935999631882
+      ],
+      [
+        0.9965379238128662,
+        0.0031486849766224623,
+        0.00031340011628344655
+      ]
+    ]
+  },
+  {
+    "fact": "Hibo Wardere is Somali-born.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.7862878441810608,
+        0.15664203464984894,
+        0.057070042937994
+      ],
+      [
+        0.00035118733649142087,
+        0.9994388222694397,
+        0.00020998308900743723
+      ]
+    ]
+  },
+  {
+    "fact": "Hibo Wardere is based in the United Kingdom.",
+    "gold": "S",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She has worked with a number of organizations.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She has worked with the World Health Organization.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She has worked to educate communities about the dangers of FGM.",
+    "gold": "S",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.997641921043396,
+        0.001584007404744625,
+        0.0007740750443190336
+      ],
+      [
+        0.9876824021339417,
+        0.011306600645184517,
+        0.0010109998984262347
+      ]
+    ]
+  },
+  {
+    "fact": "She has worked to promote the elimination of FGM.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.6703566908836365,
+        0.10474769026041031,
+        0.22489556670188904
+      ],
+      [
+        0.9912155866622925,
+        0.007273195777088404,
+        0.001511132693849504
+      ]
+    ]
+  },
+  {
+    "fact": "Nisar Ahmad Kakru was Kashmiri.",
+    "gold": "NS",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.9885966181755066,
+        0.01077209785580635,
+        0.0006312757031992078
+      ],
+      [
+        0.0064503904432058334,
+        0.9926119446754456,
+        0.0009376214002259076
+      ]
+    ]
+  },
+  {
+    "fact": "Nisar Ahmad Kakru was a prominent poet.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.0005634062108583748,
+        0.6031910181045532,
+        0.3962455689907074
+      ],
+      [
+        0.004492257256060839,
+        0.9730371832847595,
+        0.022470589727163315
+      ]
+    ]
+  },
+  {
+    "fact": "Nisar Ahmad Kakru was a prominent writer.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.00040385499596595764,
+        0.9688094258308411,
+        0.030786678194999695
+      ],
+      [
+        0.003432700177654624,
+        0.9918493032455444,
+        0.00471798051148653
+      ]
+    ]
+  },
+  {
+    "fact": "Nisar Ahmad Kakru was a prominent scholar.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.000515315099619329,
+        0.9983102083206177,
+        0.0011745429364964366
+      ],
+      [
+        0.02406056597828865,
+        0.9733526110649109,
+        0.0025868387892842293
+      ]
+    ]
+  },
+  {
+    "fact": "His poems are known for their simplicity.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "His poems are known for their clarity.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "His poems are known for their use of everyday language.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Don Featherstone was born in 1936.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.026644360274076462,
+        0.0037154490128159523,
+        0.9696401357650757
+      ]
+    ]
+  },
+  {
+    "fact": "Don Featherstone died in 2015.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9056432247161865,
+        0.02915017120540142,
+        0.06520664691925049
+      ],
+      [
+        0.003750027623027563,
+        0.0030158264562487602,
+        0.9932340979576111
+      ]
+    ]
+  },
+  {
+    "fact": "Don Featherstone was an American.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9486588835716248,
+        0.0017169532366096973,
+        0.049624182283878326
+      ],
+      [
+        0.043759264051914215,
+        0.955164909362793,
+        0.0010758063290268183
+      ]
+    ]
+  },
+  {
+    "fact": "Don Featherstone was an artist.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.8429298996925354,
+        0.0020993102807551622,
+        0.15497076511383057
+      ],
+      [
+        0.9978606104850769,
+        0.001617053640075028,
+        0.0005222887848503888
+      ]
+    ]
+  },
+  {
+    "fact": "Don Featherstone was a designer.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.7734328508377075,
+        0.004738918971270323,
+        0.22182819247245789
+      ],
+      [
+        0.5634098649024963,
+        0.414429247379303,
+        0.022160835564136505
+      ]
+    ]
+  },
+  {
+    "fact": "Don Featherstone created the plastic pink flamingo lawn ornament.",
+    "gold": "S",
+    "max_recall": 0.7142857142857143,
+    "deberta_probs": [
+      [
+        0.0017540850676596165,
+        0.010832669213414192,
+        0.9874132871627808
+      ],
+      [
+        0.32370227575302124,
+        0.5619061589241028,
+        0.11439163237810135
+      ]
+    ]
+  },
+  {
+    "fact": "He has worked as a researcher at various organizations.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He has worked as a scientist at various organizations.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Mayo Clinic is an organization.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.8653486967086792,
+        0.06918111443519592,
+        0.06547021120786667
+      ]
+    ]
+  },
+  {
+    "fact": "He has worked at Mayo Clinic.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.7834229469299316,
+        0.20916898548603058,
+        0.007408003322780132
+      ]
+    ]
+  },
+  {
+    "fact": "Google is an organization.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He has worked at Google.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Continuum Analytics is an organization.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9834064841270447,
+        0.006934983190149069,
+        0.00965859740972519
+      ]
+    ]
+  },
+  {
+    "fact": "He has worked at Continuum Analytics.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.998443067073822,
+        0.000853212084621191,
+        0.0007037496543489397
+      ]
+    ]
+  },
+  {
+    "fact": "Furlong joined the Canadian Armed Forces.",
+    "gold": "S",
+    "max_recall": 0.8,
+    "deberta_probs": [
+      [
+        0.9977769255638123,
+        0.0013787368079647422,
+        0.0008444268605671823
+      ],
+      [
+        0.9952372312545776,
+        0.0014156702673062682,
+        0.0033471276983618736
+      ]
+    ]
+  },
+  {
+    "fact": "Furlong joined in 1995.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.002822356065735221,
+        0.9686979055404663,
+        0.02847967855632305
+      ],
+      [
+        0.0010435589356347919,
+        0.001444570836611092,
+        0.9975118637084961
+      ]
+    ]
+  },
+  {
+    "fact": "He served in the Princess Patricia's Canadian Light Infantry.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.5666801929473877,
+        0.42335596680641174,
+        0.009963859803974628
+      ],
+      [
+        0.18774564564228058,
+        0.8098030686378479,
+        0.002451306441798806
+      ]
+    ]
+  },
+  {
+    "fact": "He served as a sniper.",
+    "gold": "NS",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9976882934570312,
+        0.0015481438022106886,
+        0.0007635531947016716
+      ],
+      [
+        0.9989355206489563,
+        0.0006829662597738206,
+        0.00038159661926329136
+      ]
+    ]
+  },
+  {
+    "fact": "Furlong left the military.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.002436832757666707,
+        0.9960261583328247,
+        0.0015370765468105674
+      ]
+    ]
+  },
+  {
+    "fact": "Furlong worked as a hunting guide.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Furlong has been involved in various veteran organizations.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Jessica Barboza is Venezuelan.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9987764954566956,
+        0.0008126436732709408,
+        0.0004108393914066255
+      ]
+    ]
+  },
+  {
+    "fact": "Jessica Barboza is a fashion model.",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.9676135778427124,
+        0.030920790508389473,
+        0.0014656734419986606
+      ]
+    ]
+  },
+  {
+    "fact": "Jessica Barboza is a beauty queen.",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.9981710910797119,
+        0.0009881845908239484,
+        0.0008406456327065825
+      ]
+    ]
+  },
+  {
+    "fact": "Jessica Barboza is a social media personality.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She was born on July 18, 1987.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.00036778193316422403,
+        0.0006248060963116586,
+        0.9990074038505554
+      ]
+    ]
+  },
+  {
+    "fact": "She was born in Maracaibo.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9326610565185547,
+        0.061583105474710464,
+        0.005755840800702572
+      ]
+    ]
+  },
+  {
+    "fact": "Maracaibo is in Venezuela.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.6203246116638184,
+        0.3339655101299286,
+        0.04570988938212395
+      ]
+    ]
+  },
+  {
+    "fact": "With CSKA, he won domestic titles.",
+    "gold": "S",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "With CSKA, he won international titles.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0007965088589116931,
+        0.9954752326011658,
+        0.0037282768171280622
+      ],
+      [
+        0.8972272276878357,
+        0.09490137547254562,
+        0.007871405221521854
+      ]
+    ]
+  },
+  {
+    "fact": "With CSKA, he won three Russian Premier League titles.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.1278051882982254,
+        0.7855989933013916,
+        0.08659578114748001
+      ],
+      [
+        0.0008286029915325344,
+        0.9979522228240967,
+        0.001219099503941834
+      ]
+    ]
+  },
+  {
+    "fact": "With CSKA, he won the UEFA Cup.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.0026987947057932615,
+        0.957762598991394,
+        0.03953852131962776
+      ],
+      [
+        0.011788061819970608,
+        0.8002381324768066,
+        0.18797384202480316
+      ]
+    ]
+  },
+  {
+    "fact": "He won the UEFA Cup in 2005.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9716699123382568,
+        0.011952119879424572,
+        0.016377940773963928
+      ],
+      [
+        0.07771526277065277,
+        0.07389428466558456,
+        0.8483904600143433
+      ]
+    ]
+  },
+  {
+    "fact": "Florencia Bertotti is an Argentinian.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.996451735496521,
+        0.0025256334338337183,
+        0.0010225806618109345
+      ],
+      [
+        0.005198406986892223,
+        0.9896405339241028,
+        0.005160971079021692
+      ]
+    ]
+  },
+  {
+    "fact": "Florencia Bertotti is an actress.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9794574975967407,
+        0.014389364048838615,
+        0.006153148133307695
+      ],
+      [
+        0.9939553141593933,
+        0.002120181918144226,
+        0.00392442662268877
+      ]
+    ]
+  },
+  {
+    "fact": "Florencia Bertotti is a singer.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.1060577780008316,
+        0.8868882656097412,
+        0.007053876295685768
+      ],
+      [
+        0.0056400056928396225,
+        0.15297190845012665,
+        0.8413881063461304
+      ]
+    ]
+  },
+  {
+    "fact": "Florencia Bertotti is a television host.",
+    "gold": "NS",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.0006038349820300937,
+        0.020942771807312965,
+        0.9784533977508545
+      ],
+      [
+        0.0012251404114067554,
+        0.026860462501645088,
+        0.9719144105911255
+      ]
+    ]
+  },
+  {
+    "fact": "Bertotti is a talented performer.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Bertotti is an accomplished performer.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Bertotti has made an impact on the entertainment industry in Argentina.",
+    "gold": "NS",
+    "max_recall": 0.3333333333333333,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Bertotti has made an impact on the entertainment industry beyond Argentina.",
+    "gold": "NS",
+    "max_recall": 0.2857142857142857,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Jonathan Haagensen is a Brazilian.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.999347984790802,
+        0.0003395989479031414,
+        0.0003124205977655947
+      ]
+    ]
+  },
+  {
+    "fact": "Jonathan Haagensenis an actor.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.9988332390785217,
+        0.00048000901006162167,
+        0.0006867498741485178
+      ]
+    ]
+  },
+  {
+    "fact": "Jonathan Haagensen was born on February 3, 1982.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.00010821355681400746,
+        0.00032940710661932826,
+        0.9995623230934143
+      ]
+    ]
+  },
+  {
+    "fact": "Jonathan Haagensen was born in Rio de Janeiro.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.01007946114987135,
+        0.39216098189353943,
+        0.5977595448493958
+      ]
+    ]
+  },
+  {
+    "fact": "Rio de Janeiro is in Brazil.",
+    "gold": "S",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Haagensen began his acting career in theater.",
+    "gold": "S",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Haagensen began his acting career when he was 15 years old.",
+    "gold": "NS",
+    "max_recall": 0.5714285714285714,
+    "deberta_probs": [
+      [
+        0.0045723337680101395,
+        0.9546236395835876,
+        0.04080403596162796
+      ]
+    ]
+  },
+  {
+    "fact": "Haagensen later transitioned to television.",
+    "gold": "S",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Haagensen later transitioned to film.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.01723439060151577,
+        0.9702392220497131,
+        0.012526405975222588
+      ]
+    ]
+  },
+  {
+    "fact": "Kerser is an Australian.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.5425727963447571,
+        0.45474928617477417,
+        0.0026779421605169773
+      ],
+      [
+        0.9851342439651489,
+        0.014422250911593437,
+        0.00044356982107274234
+      ]
+    ]
+  },
+  {
+    "fact": "Kerser is a rapper.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9760897159576416,
+        0.022928114980459213,
+        0.0009821890853345394
+      ],
+      [
+        0.9995187520980835,
+        0.0002952063223347068,
+        0.00018595272558741271
+      ]
+    ]
+  },
+  {
+    "fact": "Kerser is a songwriter.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.9951802492141724,
+        0.004092040006071329,
+        0.0007277294062077999
+      ],
+      [
+        0.009789366275072098,
+        0.9894205331802368,
+        0.000790173071436584
+      ]
+    ]
+  },
+  {
+    "fact": "Kerser is from Sydney.",
+    "gold": "NS",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.020311130210757256,
+        0.9741494059562683,
+        0.005539491772651672
+      ],
+      [
+        0.0005231950199231505,
+        0.9989238381385803,
+        0.0005528449546545744
+      ]
+    ]
+  },
+  {
+    "fact": "Kerser's real name is Scott Barrow.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.014024605043232441,
+        0.4410853981971741,
+        0.5448899269104004
+      ],
+      [
+        0.014218736439943314,
+        0.9817630052566528,
+        0.004018287640064955
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin is also known as Chin Peng.",
+    "gold": "NS",
+    "max_recall": 0.6,
+    "deberta_probs": [
+      [
+        0.006873471662402153,
+        0.9879598617553711,
+        0.005166593939065933
+      ],
+      [
+        0.062116965651512146,
+        0.9215221405029297,
+        0.016360856592655182
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin was a Malayan.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.99272221326828,
+        0.0048834518529474735,
+        0.0023943455889821053
+      ],
+      [
+        0.11730948835611343,
+        0.881009042263031,
+        0.0016814382979646325
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin was a communist.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0004452705034054816,
+        0.9990569949150085,
+        0.0004977466305717826
+      ],
+      [
+        0.00028969976119697094,
+        0.9985859394073486,
+        0.0011243860935792327
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin was a revolutionary.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0006536795408464968,
+        0.9959205389022827,
+        0.003425785806030035
+      ],
+      [
+        0.0021549430675804615,
+        0.9408146142959595,
+        0.05703045800328255
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin led the Communist Party of Malaya (CPM).",
+    "gold": "NS",
+    "max_recall": 0.42857142857142855,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Botak Chin led the CPM in a guerrilla war.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.010112113319337368,
+        0.14389263093471527,
+        0.8459952473640442
+      ]
+    ]
+  },
+  {
+    "fact": "Botak Chin led the CPM against the British colonial government.",
+    "gold": "NS",
+    "max_recall": 0.42857142857142855,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Botak Chin led the CPM in the 1940s and 1950s.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.009197304025292397,
+        0.22359569370746613,
+        0.7672069668769836
+      ]
+    ]
+  },
+  {
+    "fact": "He started surfing at a young age.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He quickly developed a passion for the sport.",
+    "gold": "NS",
+    "max_recall": 0.25,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Owen is known for his powerful surfing style.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Owen is known for his dynamic surfing style.",
+    "gold": "NS",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Owen is known for his ability to perform aerial maneuvers with ease.",
+    "gold": "NS",
+    "max_recall": 0.14285714285714285,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Shahnaz married Ardeshir Zahedi.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.00518614798784256,
+        0.004386508837342262,
+        0.9904273748397827
+      ]
+    ]
+  },
+  {
+    "fact": "Shahnaz married in 1959.",
+    "gold": "NS",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.005730508826673031,
+        0.018568310886621475,
+        0.9757011532783508
+      ]
+    ]
+  },
+  {
+    "fact": "Ardeshir Zahedi served as Iran's foreign minister.",
+    "gold": "S",
+    "max_recall": 0.8333333333333334,
+    "deberta_probs": [
+      [
+        0.005080520175397396,
+        0.008583202958106995,
+        0.986336350440979
+      ]
+    ]
+  },
+  {
+    "fact": "Ardeshir Zahedi served as Iran's ambassador to the United States.",
+    "gold": "S",
+    "max_recall": 0.8571428571428571,
+    "deberta_probs": [
+      [
+        0.0011961304116994143,
+        0.008307709358632565,
+        0.9904961585998535
+      ]
+    ]
+  },
+  {
+    "fact": "They had three children together.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "They divorced in 1964.",
+    "gold": "S",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She passed away on June 27, 2020.",
+    "gold": "NS",
+    "max_recall": 0.2,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She passed away at the age of 79.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0035143084824085236,
+        0.031801722943782806,
+        0.9646839499473572
+      ]
+    ]
+  },
+  {
+    "fact": "Jidenna's music is a fusion of hip-hop.",
+    "gold": "NS",
+    "max_recall": 0.8,
+    "deberta_probs": [
+      [
+        0.016673868522047997,
+        0.9816102981567383,
+        0.0017158250557258725
+      ],
+      [
+        0.02648285962641239,
+        0.8939091563224792,
+        0.07960797101259232
+      ]
+    ]
+  },
+  {
+    "fact": "Jidenna's music is a fusion of R&B.",
+    "gold": "NS",
+    "max_recall": 0.8,
+    "deberta_probs": [
+      [
+        0.01037740521132946,
+        0.9882882833480835,
+        0.001334192231297493
+      ],
+      [
+        0.005694027058780193,
+        0.9550791382789612,
+        0.03922680765390396
+      ]
+    ]
+  },
+  {
+    "fact": "Jidenna's music is a fusion of Afrobeat.",
+    "gold": "NS",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0060522970743477345,
+        0.9926708936691284,
+        0.0012768853921443224
+      ],
+      [
+        0.027803396806120872,
+        0.9429910778999329,
+        0.02920548804104328
+      ]
+    ]
+  },
+  {
+    "fact": "He often incorporates African elements into his style.",
+    "gold": "S",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "He often incorporates African elements into his fashion.",
+    "gold": "S",
+    "max_recall": 0.4,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She was born on April 2, 1973.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9971862435340881,
+        0.001804192317649722,
+        0.0010095725301653147
+      ]
+    ]
+  },
+  {
+    "fact": "She was born in San Juan.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9981871247291565,
+        0.0014141029678285122,
+        0.0003987379022873938
+      ],
+      [
+        0.0009592506103217602,
+        0.9975518584251404,
+        0.0014888602308928967
+      ]
+    ]
+  },
+  {
+    "fact": "San Juan is in Puerto Rico.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9970383644104004,
+        0.0027027702890336514,
+        0.00025885755894705653
+      ],
+      [
+        0.9838813543319702,
+        0.01445254310965538,
+        0.0016660779947414994
+      ]
+    ]
+  },
+  {
+    "fact": "She has supported St. Jude Children's Research Hospital.",
+    "gold": "NS",
+    "max_recall": 0.16666666666666666,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She has supported The National Alliance on Mental Illness.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "She has supported The National Foundation for Autism Research.",
+    "gold": "NS",
+    "max_recall": 0.0,
+    "deberta_probs": []
+  },
+  {
+    "fact": "Ji Sung is South Korean.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.9818236231803894,
+        0.01585792377591133,
+        0.0023184309247881174
+      ],
+      [
+        0.006749128922820091,
+        0.9928939938545227,
+        0.0003568928805179894
+      ]
+    ]
+  },
+  {
+    "fact": "Ji Sung is an actor.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.6176486015319824,
+        0.3167019784450531,
+        0.06564938277006149
+      ],
+      [
+        0.9996088147163391,
+        0.00019727936887647957,
+        0.00019385166524443775
+      ]
+    ]
+  },
+  {
+    "fact": "Ji Sung's real name is Kwak Tae Geun.",
+    "gold": "S",
+    "max_recall": 0.7142857142857143,
+    "deberta_probs": [
+      [
+        0.46201297640800476,
+        0.36381790041923523,
+        0.1741691380739212
+      ],
+      [
+        0.010343750938773155,
+        0.6572775840759277,
+        0.3323785960674286
+      ]
+    ]
+  },
+  {
+    "fact": "Ji Sung was born on February 27, 1977.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.4759436547756195,
+        0.12088125199079514,
+        0.40317511558532715
+      ],
+      [
+        0.00498370174318552,
+        0.986164391040802,
+        0.008851894177496433
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in numerous dramas.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0068835606798529625,
+        0.9923219084739685,
+        0.0007945728139020503
+      ],
+      [
+        0.42599043250083923,
+        0.5670726299285889,
+        0.006936895195394754
+      ]
+    ]
+  },
+  {
+    "fact": "The dramas he has starred in have been popular.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.05313791334629059,
+        0.9458869695663452,
+        0.0009751575416885316
+      ],
+      [
+        0.9345008134841919,
+        0.06285092234611511,
+        0.002648307476192713
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in numerous films.",
+    "gold": "S",
+    "max_recall": 0.5,
+    "deberta_probs": [
+      [
+        0.0026535913348197937,
+        0.9966654181480408,
+        0.0006810217746533453
+      ],
+      [
+        0.0026959737297147512,
+        0.996259331703186,
+        0.001044778386130929
+      ]
+    ]
+  },
+  {
+    "fact": "The films he has starred in have been popular.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.6399312615394592,
+        0.3552952706813812,
+        0.004773504100739956
+      ],
+      [
+        0.0003961881448049098,
+        0.9993628859519958,
+        0.00024086101620923728
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in \"Save the Last Dance for Me.\".",
+    "gold": "S",
+    "max_recall": 0.8,
+    "deberta_probs": [
+      [
+        0.0009841916617006063,
+        0.07701510936021805,
+        0.9220007658004761
+      ],
+      [
+        0.054484862834215164,
+        0.9415296316146851,
+        0.003985508345067501
+      ]
+    ]
+  },
+  {
+    "fact": "\"Save the Last Dance for Me.\" is popular.",
+    "gold": "S",
+    "max_recall": 1.0,
+    "deberta_probs": [
+      [
+        0.1033107116818428,
+        0.8905335664749146,
+        0.006155704613775015
+      ],
+      [
+        0.004653793293982744,
+        0.9911598563194275,
+        0.004186345264315605
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in \"New Heart.\".",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.000573796802200377,
+        0.001675584353506565,
+        0.9977505803108215
+      ],
+      [
+        0.16635340452194214,
+        0.7504741549491882,
+        0.08317245543003082
+      ]
+    ]
+  },
+  {
+    "fact": "\"New Heart.\" is popular.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.005367374513298273,
+        0.9912103414535522,
+        0.0034223278053104877
+      ],
+      [
+        0.001986399758607149,
+        0.9971638321876526,
+        0.000849657750222832
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in \"Protect the Boss.\".",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.03967111557722092,
+        0.8882506489753723,
+        0.07207824289798737
+      ],
+      [
+        0.09684248268604279,
+        0.8379471898078918,
+        0.06521033495664597
+      ]
+    ]
+  },
+  {
+    "fact": "-\"Protect the Boss.\" is popular.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.005237612407654524,
+        0.991018533706665,
+        0.0037439095322042704
+      ],
+      [
+        0.002908677328377962,
+        0.9959015250205994,
+        0.0011898368829861283
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in \"Kill Me, Heal Me.\".",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.006159074604511261,
+        0.48416054248809814,
+        0.5096803903579712
+      ],
+      [
+        0.06031188368797302,
+        0.8969710469245911,
+        0.04271706938743591
+      ]
+    ]
+  },
+  {
+    "fact": "\"Kill Me, Heal Me.\" is popular.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.0038662117440253496,
+        0.9924085140228271,
+        0.003725290298461914
+      ],
+      [
+        0.9002026915550232,
+        0.08679739385843277,
+        0.012999959290027618
+      ]
+    ]
+  },
+  {
+    "fact": "He has since then starred in \"Familiar Wife.\".",
+    "gold": "S",
+    "max_recall": 0.75,
+    "deberta_probs": [
+      [
+        0.000327096349792555,
+        0.0015152371488511562,
+        0.9981576800346375
+      ],
+      [
+        0.09614153206348419,
+        0.8530459403991699,
+        0.05081256851553917
+      ]
+    ]
+  },
+  {
+    "fact": "\"Familiar Wife.\" is popular.",
+    "gold": "S",
+    "max_recall": 0.6666666666666666,
+    "deberta_probs": [
+      [
+        0.004410065710544586,
+        0.9903268218040466,
+        0.005263067781925201
+      ],
+      [
+        0.0029013503808528185,
+        0.9964784979820251,
+        0.0006201612413860857
+      ]
+    ]
+  }
+]
