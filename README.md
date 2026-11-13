@@ -8,7 +8,7 @@
 [![Grade Benchmark](https://img.shields.io/badge/Grade%20A%20Benchmarks-All%20Passed-brightgreen.svg)]()
 
 > **Robert Gordon University (RGU) Aberdeen** in Collaboration with **Informatics Institute of Technology (IIT)**  
-> **Module**: CM3604 – Deep Learning (Coursework Element 1)  
+> **Module**: CM3604 – Deep Learning (Coursework)  
 > **Academic Year**: 2026 / 2027  
 > **Module Leader**: Mr. Prasan Yapa  
 
