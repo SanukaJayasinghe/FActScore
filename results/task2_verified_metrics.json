@@ -1,0 +1,42 @@
+{
+  "phase": "Phase 6 - Task 2 Official Verification & Freezing",
+  "command": "python factchecking_main.py --mode entailment",
+  "device": "cpu",
+  "dataset": "data/dev_labeled_ChatGPT.jsonl",
+  "passages": "data/passages_bm25_ChatGPT_humfacts.jsonl",
+  "total_examples": 221,
+  "model_name": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "model_class": "EntailmentFactChecker",
+  "frozen_parameters": {
+    "high_recall_threshold": 0.85,
+    "mod_recall_threshold": 0.65,
+    "nli_threshold": 0.005,
+    "top_k_passages": 2,
+    "early_prune_unmatched": true,
+    "memory_management": "aggressive_gc_and_del"
+  },
+  "metrics": {
+    "correct_predictions": 186,
+    "total_predictions": 221,
+    "accuracy": 0.8416289592760181,
+    "accuracy_pct": 84.16,
+    "precision_S": 0.8737864077669902,
+    "recall_S": 0.8035714285714286,
+    "f1_S": 0.8372093023255814,
+    "precision_NS": 0.8135593220338984,
+    "recall_NS": 0.8807339449541285,
+    "f1_NS": 0.8458149779735683,
+    "macro_f1": 0.8415121401495748
+  },
+  "confusion_matrix": {
+    "TP_Supported": 90,
+    "FN_Supported": 22,
+    "FP_NotSupported": 13,
+    "TN_NotSupported": 96
+  },
+  "execution_time_seconds": 42.0,
+  "coursework_target": ">= 83.0%",
+  "target_met": true,
+  "margin_above_target": "+1.16%"
+}
+

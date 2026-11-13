@@ -1,0 +1,222 @@
+Index,Fact,GoldLabel,PredictedLabel,Correct,MaxRecallScore
+1,Marianne McAndrew is an American.,NS,S,NO,1.0000
+2,Marianne McAndrew is an actress.,S,S,YES,1.0000
+3,Marianne McAndrew is a singer.,NS,S,NO,0.6667
+4,"Marianne McAndrew was born on November 21, 1942.",NS,NS,YES,0.3333
+5,Marianne McAndrew was born in Cleveland.,NS,NS,YES,0.5000
+6,Cleveland is in Ohio.,NS,S,NO,1.0000
+7,Gerhard Fischer is an inventor.,S,S,YES,1.0000
+8,Gerhard Fischer is an entrepreneur.,S,S,YES,1.0000
+9,Gerhard Fischer is best known for inventing a metal detector.,S,S,YES,0.7143
+10,"Gerhard Fischer invented the first handheld, battery-operated metal detector.",S,NS,NO,0.5556
+11,"Gerhard Fischer invented the first handheld, battery-operated metal detector in 1931.",NS,NS,YES,0.6000
+12,He founded the Fischer Research Laboratory.,S,S,YES,1.0000
+13,The Fischer Research Laboratory was founded in 1936.,NS,S,NO,0.8000
+14,The Fischer Research Laboratory became one of the world's leading manufacturers of metal detectors.,NS,NS,YES,0.6000
+15,Joey D. Vieira is an American.,S,S,YES,1.0000
+16,Joey D. Vieira is an actor.,S,S,YES,1.0000
+17,Joey D. Vieira is a stunt performer.,NS,NS,YES,0.5000
+18,"Joey D. Vieira was born on July 23, 1937.",NS,NS,YES,0.5000
+19,"Joey D. Vieira was born in California, USA.",NS,NS,YES,0.6000
+20,She transitioned to acting.,NS,NS,YES,0.5000
+21,She appeared in films.,S,S,YES,1.0000
+22,She appeared in A Bronx Tale.,S,S,YES,1.0000
+23,A Bronx Tale is a film.,S,S,YES,1.0000
+24,A Bronx Tale was released in 1993.,S,S,YES,0.7500
+25,She appeared in Just Cause.,S,S,YES,1.0000
+26,Just Cause is a film.,S,S,YES,1.0000
+27,Just Cause was released in 1995.,S,S,YES,0.6667
+28,She appeared in Belly.,S,S,YES,1.0000
+29,Belly is a film.,S,S,YES,1.0000
+30,Belly was released in 1998.,S,S,YES,1.0000
+31,He is a member of the Democratic Party.,NS,NS,YES,0.3333
+32,He has served as a mayor.,NS,NS,YES,0.0000
+33,He is the mayor of Palermo.,NS,NS,YES,0.5000
+34,He has been mayor of Palermo since June 2017.,NS,NS,YES,0.2000
+35,Tusa has been involved in various cultural initiatives.,NS,NS,YES,0.2000
+36,Tusa has worked to promote Palermo as a cultural destination.,NS,NS,YES,0.5000
+37,Jean Daullé was born in 1703.,S,S,YES,0.6667
+38,Jean Daullé died in 1763.,S,S,YES,0.6667
+39,Jean Daullé was French.,S,S,YES,1.0000
+40,Jean Daullé was an engraver.,S,S,YES,1.0000
+41,Jean Daullé was a printmaker.,NS,NS,YES,0.5000
+42,Jean Daullé was known for his portraits.,S,S,YES,0.6667
+43,Jean Daullé was known for his religious subjects.,NS,NS,YES,0.5000
+44,Fernandinho represents the Brazil national team.,NS,NS,YES,0.2000
+45,Fernandinho has represented the Brazil national team since 2011.,NS,NS,YES,0.1429
+46,Fernandinho has earned over 50 caps.,NS,NS,YES,0.0000
+47,Fernandinho participated in the 2014 FIFA World Cup.,NS,NS,YES,0.0000
+48,Fernandinho participated in the 2018 FIFA World Cup.,NS,NS,YES,0.0000
+49,He moved to Dutch club FC Groningen.,S,NS,NO,0.6000
+50,He made the move in 2019.,S,S,YES,0.6667
+51,He has become a regular starter in the team's defense.,NS,NS,YES,0.4000
+52,Itakura has represented Japan at the Under-19-level.,NS,NS,YES,0.6000
+53,Itakura has represented Japan at the Under-23 level.,NS,NS,YES,0.4000
+54,Itakura made his senior debut for the national team in 2019.,S,S,YES,0.7143
+55,"He was born on December 5, 1999.",NS,NS,YES,0.2500
+56,He was born in Hull.,NS,NS,YES,0.5000
+57,Hull is in England.,NS,NS,YES,0.5000
+58,Houghton has established himself as one of the top hookers in the Super League.,NS,NS,YES,0.4286
+59,He was named Hull FC's player of the year.,NS,NS,YES,0.2000
+60,He was named player of the year in 2018.,NS,NS,YES,0.2500
+61,Mike Trivisonno is a radio personality.,S,S,YES,1.0000
+62,Mike Trivisonno is well-known.,S,S,YES,1.0000
+63,Mike Trivisonno is from Cleveland.,S,S,YES,1.0000
+64,Cleveland is in Ohio.,S,S,YES,1.0000
+65,Trivisonno started his radio career at WIXY 1260 AM.,NS,NS,YES,0.5000
+66,Trivisonno worked at WMMS.,NS,S,NO,0.6667
+67,Trivisonno worked at WTAM.,S,S,YES,1.0000
+68,Trivisonno worked at WKNR.,NS,S,NO,1.0000
+69,Estes is the grandson of Sleepy John Estes.,NS,NS,YES,0.5000
+70,Sleepy John Estes is a blues musician.,NS,NS,YES,0.4000
+71,Sleepy John Estes is legendary.,NS,NS,YES,0.5000
+72,Estes learned to play guitar from his grandfather.,NS,NS,YES,0.4000
+73,He currently resides in Nashville.,NS,NS,YES,0.0000
+74,Nashville is in Tennessee.,NS,NS,YES,0.0000
+75,He continues to tour.,NS,NS,YES,0.0000
+76,He continues to record new music.,NS,NS,YES,0.2500
+77,Katsu has written novels.,S,S,YES,0.6667
+78,The Taker trilogy is a novel by Katsu.,S,S,YES,1.0000
+79,The Hunger is a novel by Katsu.,S,S,YES,1.0000
+80,The Deep is a novel by Katsu.,S,S,YES,1.0000
+81,Red Widow is a novel by Katsu.,S,S,YES,1.0000
+82,Katsu currently lives in Virginia.,NS,NS,YES,0.5000
+83,Katsu lives with her husband.,S,S,YES,1.0000
+84,Rennie Fritchie is a public servant.,S,S,YES,0.7500
+85,Rennie Fritchie is British.,S,S,YES,1.0000
+86,Rennie Fritchie is a Baroness.,S,S,YES,1.0000
+87,Rennie Fritchie is Baroness Fritchie.,S,S,YES,1.0000
+88,Rennie Fritchie is a crossbench member of the House of Lords.,S,S,YES,0.6667
+89,He had a brief stint with Universitario de Deportes.,NS,NS,YES,0.0000
+90,His stint with Universitario de Deportes was in 2003.,NS,NS,YES,0.0000
+91,He then moved to Mexico.,NS,NS,YES,0.0000
+92,He went to Mexico to play for Club Necaxa.,NS,NS,YES,0.2000
+93,Salazar played for the Peru national team from 1995.,NS,NS,YES,0.5000
+94,Salazar left the Peru national team in 2003.,NS,NS,YES,0.5000
+95,Salazar earned 28 caps for the Peru national team.,NS,NS,YES,0.5714
+96,Salazar scored six goals for the Peru national team.,NS,NS,YES,0.5714
+97,He grew up in a Christian household.,NS,NS,YES,0.3333
+98,He became a Christian at a young age.,NS,NS,YES,0.5000
+99,He was a pastor in South Africa.,S,S,YES,1.0000
+100,He served for many years as a pastor.,S,NS,NO,0.5000
+101,He served as the Executive Director of the International Christian Embassy Jerusalem.,S,S,YES,1.0000
+102,Hibo Wardere is a campaigner.,S,S,YES,1.0000
+103,Hibo Wardere is an author.,S,S,YES,1.0000
+104,Hibo Wardere is Somali-born.,S,S,YES,1.0000
+105,Hibo Wardere is based in the United Kingdom.,S,NS,NO,0.4000
+106,She has worked with a number of organizations.,NS,NS,YES,0.3333
+107,She has worked with the World Health Organization.,NS,NS,YES,0.2500
+108,She has worked to educate communities about the dangers of FGM.,S,NS,NO,0.6000
+109,She has worked to promote the elimination of FGM.,S,NS,NO,0.5000
+110,Nisar Ahmad Kakru was Kashmiri.,NS,S,NO,0.7500
+111,Nisar Ahmad Kakru was a prominent poet.,NS,NS,YES,0.6000
+112,Nisar Ahmad Kakru was a prominent writer.,NS,NS,YES,0.6000
+113,Nisar Ahmad Kakru was a prominent scholar.,NS,NS,YES,0.6000
+114,His poems are known for their simplicity.,NS,NS,YES,0.0000
+115,His poems are known for their clarity.,NS,NS,YES,0.0000
+116,His poems are known for their use of everyday language.,NS,NS,YES,0.0000
+117,Don Featherstone was born in 1936.,S,S,YES,1.0000
+118,Don Featherstone died in 2015.,S,S,YES,1.0000
+119,Don Featherstone was an American.,S,S,YES,1.0000
+120,Don Featherstone was an artist.,S,S,YES,1.0000
+121,Don Featherstone was a designer.,S,S,YES,1.0000
+122,Don Featherstone created the plastic pink flamingo lawn ornament.,S,S,YES,0.7143
+123,He has worked as a researcher at various organizations.,NS,NS,YES,0.2500
+124,He has worked as a scientist at various organizations.,NS,NS,YES,0.2500
+125,Mayo Clinic is an organization.,NS,S,NO,0.6667
+126,He has worked at Mayo Clinic.,NS,S,NO,0.6667
+127,Google is an organization.,NS,NS,YES,0.0000
+128,He has worked at Google.,NS,NS,YES,0.0000
+129,Continuum Analytics is an organization.,S,S,YES,0.6667
+130,He has worked at Continuum Analytics.,S,S,YES,0.6667
+131,Furlong joined the Canadian Armed Forces.,S,S,YES,0.8000
+132,Furlong joined in 1995.,NS,S,NO,0.6667
+133,He served in the Princess Patricia's Canadian Light Infantry.,S,S,YES,1.0000
+134,He served as a sniper.,NS,S,NO,1.0000
+135,Furlong left the military.,S,S,YES,0.6667
+136,Furlong worked as a hunting guide.,NS,NS,YES,0.2500
+137,Furlong has been involved in various veteran organizations.,NS,NS,YES,0.2000
+138,Jessica Barboza is Venezuelan.,S,S,YES,1.0000
+139,Jessica Barboza is a fashion model.,S,S,YES,0.7500
+140,Jessica Barboza is a beauty queen.,S,S,YES,0.7500
+141,Jessica Barboza is a social media personality.,NS,NS,YES,0.4000
+142,"She was born on July 18, 1987.",S,NS,NO,0.5000
+143,She was born in Maracaibo.,S,S,YES,1.0000
+144,Maracaibo is in Venezuela.,S,S,YES,1.0000
+145,"With CSKA, he won domestic titles.",S,NS,NO,0.3333
+146,"With CSKA, he won international titles.",S,S,YES,0.6667
+147,"With CSKA, he won three Russian Premier League titles.",NS,S,NO,0.6667
+148,"With CSKA, he won the UEFA Cup.",S,S,YES,1.0000
+149,He won the UEFA Cup in 2005.,S,S,YES,1.0000
+150,Florencia Bertotti is an Argentinian.,S,S,YES,0.6667
+151,Florencia Bertotti is an actress.,S,S,YES,1.0000
+152,Florencia Bertotti is a singer.,S,S,YES,1.0000
+153,Florencia Bertotti is a television host.,NS,S,NO,0.7500
+154,Bertotti is a talented performer.,NS,NS,YES,0.3333
+155,Bertotti is an accomplished performer.,NS,NS,YES,0.3333
+156,Bertotti has made an impact on the entertainment industry in Argentina.,NS,NS,YES,0.3333
+157,Bertotti has made an impact on the entertainment industry beyond Argentina.,NS,NS,YES,0.2857
+158,Jonathan Haagensen is a Brazilian.,S,S,YES,1.0000
+159,Jonathan Haagensenis an actor.,S,S,YES,0.6667
+160,"Jonathan Haagensen was born on February 3, 1982.",NS,S,NO,0.6667
+161,Jonathan Haagensen was born in Rio de Janeiro.,S,S,YES,0.6667
+162,Rio de Janeiro is in Brazil.,S,NS,NO,0.2500
+163,Haagensen began his acting career in theater.,S,NS,NO,0.4000
+164,Haagensen began his acting career when he was 15 years old.,NS,NS,YES,0.5714
+165,Haagensen later transitioned to television.,S,NS,NO,0.2500
+166,Haagensen later transitioned to film.,S,NS,NO,0.5000
+167,Kerser is an Australian.,S,S,YES,1.0000
+168,Kerser is a rapper.,S,S,YES,1.0000
+169,Kerser is a songwriter.,NS,NS,YES,0.5000
+170,Kerser is from Sydney.,NS,S,NO,1.0000
+171,Kerser's real name is Scott Barrow.,NS,NS,YES,0.6000
+172,Botak Chin is also known as Chin Peng.,NS,NS,YES,0.6000
+173,Botak Chin was a Malayan.,S,S,YES,1.0000
+174,Botak Chin was a communist.,NS,S,NO,0.6667
+175,Botak Chin was a revolutionary.,NS,S,NO,0.6667
+176,Botak Chin led the Communist Party of Malaya (CPM).,NS,NS,YES,0.4286
+177,Botak Chin led the CPM in a guerrilla war.,NS,NS,YES,0.5000
+178,Botak Chin led the CPM against the British colonial government.,NS,NS,YES,0.4286
+179,Botak Chin led the CPM in the 1940s and 1950s.,NS,NS,YES,0.5000
+180,He started surfing at a young age.,NS,NS,YES,0.2500
+181,He quickly developed a passion for the sport.,NS,NS,YES,0.2500
+182,Owen is known for his powerful surfing style.,NS,NS,YES,0.4000
+183,Owen is known for his dynamic surfing style.,NS,NS,YES,0.4000
+184,Owen is known for his ability to perform aerial maneuvers with ease.,NS,NS,YES,0.1429
+185,Shahnaz married Ardeshir Zahedi.,S,S,YES,1.0000
+186,Shahnaz married in 1959.,NS,S,NO,0.6667
+187,Ardeshir Zahedi served as Iran's foreign minister.,S,S,YES,0.8333
+188,Ardeshir Zahedi served as Iran's ambassador to the United States.,S,S,YES,0.8571
+189,They had three children together.,NS,NS,YES,0.0000
+190,They divorced in 1964.,S,NS,NO,0.0000
+191,"She passed away on June 27, 2020.",NS,NS,YES,0.2000
+192,She passed away at the age of 79.,NS,NS,YES,0.5000
+193,Jidenna's music is a fusion of hip-hop.,NS,S,NO,0.8000
+194,Jidenna's music is a fusion of R&B.,NS,S,NO,0.8000
+195,Jidenna's music is a fusion of Afrobeat.,NS,NS,YES,0.5000
+196,He often incorporates African elements into his style.,S,NS,NO,0.4000
+197,He often incorporates African elements into his fashion.,S,NS,NO,0.4000
+198,"She was born on April 2, 1973.",S,S,YES,1.0000
+199,She was born in San Juan.,S,S,YES,1.0000
+200,San Juan is in Puerto Rico.,S,S,YES,1.0000
+201,She has supported St. Jude Children's Research Hospital.,NS,NS,YES,0.1667
+202,She has supported The National Alliance on Mental Illness.,NS,NS,YES,0.0000
+203,She has supported The National Foundation for Autism Research.,NS,NS,YES,0.0000
+204,Ji Sung is South Korean.,S,S,YES,1.0000
+205,Ji Sung is an actor.,S,S,YES,1.0000
+206,Ji Sung's real name is Kwak Tae Geun.,S,S,YES,0.7143
+207,"Ji Sung was born on February 27, 1977.",S,S,YES,1.0000
+208,He has since then starred in numerous dramas.,S,NS,NO,0.5000
+209,The dramas he has starred in have been popular.,S,S,YES,1.0000
+210,He has since then starred in numerous films.,S,NS,NO,0.5000
+211,The films he has starred in have been popular.,S,S,YES,0.6667
+212,"He has since then starred in ""Save the Last Dance for Me."".",S,S,YES,0.8000
+213,"""Save the Last Dance for Me."" is popular.",S,S,YES,1.0000
+214,"He has since then starred in ""New Heart."".",S,S,YES,0.7500
+215,"""New Heart."" is popular.",S,S,YES,0.6667
+216,"He has since then starred in ""Protect the Boss."".",S,S,YES,0.7500
+217,"-""Protect the Boss."" is popular.",S,S,YES,0.6667
+218,"He has since then starred in ""Kill Me, Heal Me."".",S,S,YES,0.7500
+219,"""Kill Me, Heal Me."" is popular.",S,S,YES,0.6667
+220,"He has since then starred in ""Familiar Wife."".",S,S,YES,0.7500
+221,"""Familiar Wife."" is popular.",S,S,YES,0.6667

@@ -1,0 +1,5 @@
+category_code,category_name,category_definition,fp_count,fn_count,total_count,percentage
+ECA,Entity & Coreference Ambiguity (ECA),"The model misattributes properties or actions across entities mentioned in competing contexts, or fails to resolve ambiguous third-person pronouns (he, she, they) across sentence boundaries.",3,3,6,30.0
+TNM,Temporal & Numerical Granularity Mismatch (TNM),"The claim and evidence align on entities and predicates but contradict on exact dates, calendar years, temporal intervals, or numerical cardinalities.",2,1,3,15.0
+SHP,"Specificity, Hypernymy & Paraphrase Gap (SHP)","The claim involves abstract hypernyms, compound modifiers, or pragmatic inferences (e.g. former implies left) that cannot be verified by surface word overlap or single-step NLI.",3,3,6,30.0
+EDT,Evidence Deficiency & Retrieval Truncation (EDT),"The retrieved Wikipedia passages fail to contain necessary context for genuine ground-truth facts due to BM25 ranking bias, passage window truncation, or missing entity background.",2,3,5,25.0

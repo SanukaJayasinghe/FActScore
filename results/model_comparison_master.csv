@@ -1,0 +1,5 @@
+model_id,model_name,category,description,coursework_target,target_met,total_examples,correct,accuracy_pct,macro_f1_pct,prec_S_pct,rec_S_pct,f1_S_pct,prec_NS_pct,rec_NS_pct,f1_NS_pct,tp,fn,fp,tn,cpu_runtime_sec
+baseline_always_s,Baseline: Always Supported,Baseline,Trivial majority-class baseline that predicts Supported (S) for every claim.,N/A,N/A,221,112,50.68,33.63,50.68,100.0,67.27,0.0,0.0,0.0,112,0,109,0,< 0.01s
+baseline_random,Baseline: Random Guess,Baseline,Uniform random coin-flip baseline predicting S or NS with equal probability.,N/A,N/A,221,111,50.23,50.2,50.88,51.79,51.33,49.53,48.62,49.07,58,54,56,53,< 0.01s
+task1_word_overlap,Task 1: Word Overlap Baseline,Lexical Baseline,"Porter stemming, stopword removal, and max-over-passages unigram recall with threshold tau=0.65.",>= 75.0%,YES (+8.26%),221,184,83.26,83.25,82.61,84.82,83.7,83.96,81.65,82.79,95,17,20,89,0.12s
+task2_deberta_entailment,Task 2: Textual Entailment Pipeline,Neural Entailment,"DeBERTa-v3 cross-encoder with lexical overlap pruning (th_high=0.85, th_mod=0.65, tau_nli=0.005).",>= 83.0%,YES (+1.16%),221,186,84.16,84.15,87.38,80.36,83.72,81.36,88.07,84.58,90,22,13,96,42.0s

@@ -1,0 +1,8 @@
+Ablation Configuration,Optimal Threshold (tau),Accuracy (%),Precision_S (%),Recall_S (%),F1_S (%),Precision_NS (%),Recall_NS (%),F1_NS (%),Macro_F1 (%),TP,FP,FN,TN
+"Raw Tokens (No stops, No stem)",0.72,76.92,76.99,77.68,77.33,76.85,76.15,76.50,76.92,87,26,25,83
+"Stopwords Removed, No stem",0.61,80.09,81.48,78.57,80.00,78.76,81.65,80.18,80.09,88,20,24,89
+"Stopwords Kept, Porter Stem",0.72,79.19,77.97,82.14,80.00,80.58,76.15,78.30,79.15,92,26,20,83
+"No Stops, Porter Stem (Max Passage - CHOSEN)",0.61,83.26,82.61,84.82,83.70,83.96,81.65,82.79,83.25,95,20,17,89
+"No Stops, Porter Stem (Concat Passages)",0.61,80.09,77.42,85.71,81.36,83.51,74.31,78.64,80.00,96,28,16,81
+"No Stops, Porter Stem (Jaccard Similarity)",0.03,68.78,67.48,74.11,70.64,70.41,63.30,66.67,68.65,83,40,29,69
+"No Stops, Porter Stem (Dice Coefficient)",0.06,68.78,67.77,73.21,70.39,70.00,64.22,66.99,68.69,82,39,30,70
