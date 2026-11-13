@@ -1,6 +1,0 @@
-# Virtual environment (recreate with: py -3.10 -m venv .venv, then pip install -r requirements.txt)
-.venv/
-# Files Python generates automatically
-__pycache__/
-# University coursework brief (not ours to publish)
-CW.pdf
